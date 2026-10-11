@@ -1,0 +1,9 @@
+{
+  "name": "kerberos-v4-simulator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "concurrently \"vite --host 0.0.0.0\" \"tsx server/index.ts\"", "dev:client": "vite --host 0.0.0.0", "dev:server": "tsx server/index.ts", "build": "tsc -b && vite build", "start": "tsx server/index.ts", "test": "vitest run", "test:watch": "vitest" },
+  "dependencies": { "@vitejs/plugin-react": "latest", "vite": "latest", "typescript": "latest", "react": "latest", "react-dom": "latest", "framer-motion": "latest", "lucide-react": "latest", "express": "latest", "ws": "latest" },
+  "devDependencies": { "vitest": "latest", "jsdom": "latest", "@testing-library/react": "latest", "@testing-library/jest-dom": "latest", "@types/react": "latest", "@types/react-dom": "latest", "@types/express": "latest", "@types/ws": "latest", "tsx": "latest", "concurrently": "latest" }
+}
